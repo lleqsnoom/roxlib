@@ -1,9 +1,9 @@
 {
   "name": "roxlib",
-  "url": "https://github.com/rockswang/roxlib",
+  "url": "https://gitlab.com/wikiti/roxlib",
   "license": "MIT",
   "tags": [ "flash", "cpp", "neko", "js", "gestures", "gesture", "multitouch", "utils", "thread", "ui" ],
-  "description": "hxIni is a fast, light and simple library to read and write INI files, using hashes.",
+  "description": "A multi-purpose haXe library for gestures (multitouch), multi-screen ui, threading utility and 9 patch image support.",
   "version": "1.0.0",
   "releasenote": "Uploaded to lib.haxe",
   "contributors": [ "wikiti", "rockswang" ],
