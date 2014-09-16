@@ -4,8 +4,8 @@
   "license": "MIT",
   "tags": [ "flash", "cpp", "neko", "js", "gestures", "gesture", "multitouch", "utils", "thread", "ui" ],
   "description": "A multi-purpose haXe library for gestures (multitouch), multi-screen ui, threading utility and 9 patch image support.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "releasenote": "Restarted folder structure.",
   "contributors": [ "wikiti", "rockswang" ],
-  "dependencies": {"openfl"}
+  "dependencies": { "openfl": "" }
 }
