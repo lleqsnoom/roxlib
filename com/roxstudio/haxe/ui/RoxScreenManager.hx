@@ -4,12 +4,12 @@ import motion.Actuate;
 import com.roxstudio.haxe.game.ResKeeper;
 import com.roxstudio.haxe.ui.RoxAnimate;
 import com.roxstudio.haxe.ui.RoxScreen;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.Sprite;
-import nme.events.KeyboardEvent;
-import nme.geom.Rectangle;
-import nme.Lib;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.Sprite;
+import openfl.events.KeyboardEvent;
+import openfl.geom.Rectangle;
+import openfl.Lib;
 
 #if haxe3
 

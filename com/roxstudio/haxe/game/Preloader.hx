@@ -5,10 +5,10 @@ import com.roxstudio.haxe.io.FileUtil;
 import com.roxstudio.haxe.io.Unzipper;
 import com.roxstudio.haxe.net.RoxURLLoader;
 import haxe.Timer;
-import nme.events.Event;
-import nme.events.EventDispatcher;
-import nme.events.ProgressEvent;
-import nme.utils.ByteArray;
+import openfl.events.Event;
+import openfl.events.EventDispatcher;
+import openfl.events.ProgressEvent;
+import openfl.utils.ByteArray;
 
 using StringTools;
 

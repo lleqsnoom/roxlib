@@ -2,14 +2,14 @@ package com.roxstudio.haxe.utils;
 
 import haxe.Log;
 import haxe.PosInfos;
-import nme.utils.ByteArray;
+import openfl.utils.ByteArray;
 
 /**
  * ...
  * @author Rocks Wang
  */
 #if cpp
-import nme.Assets;
+import openfl.Assets;
 
 class GbTracer {
 	

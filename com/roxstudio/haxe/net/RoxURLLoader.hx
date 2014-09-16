@@ -1,19 +1,19 @@
 package com.roxstudio.haxe.net;
 
-import nme.events.ErrorEvent;
+import openfl.events.ErrorEvent;
 import org.bytearray.gif.decoder.GIFDecoder;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.Loader;
-import nme.errors.Error;
-import nme.events.Event;
-import nme.events.EventDispatcher;
-import nme.events.IOErrorEvent;
-import nme.events.ProgressEvent;
-import nme.net.URLLoader;
-import nme.net.URLLoaderDataFormat;
-import nme.net.URLRequest;
-import nme.utils.ByteArray;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.Loader;
+import openfl.errors.Error;
+import openfl.events.Event;
+import openfl.events.EventDispatcher;
+import openfl.events.IOErrorEvent;
+import openfl.events.ProgressEvent;
+import openfl.net.URLLoader;
+import openfl.net.URLLoaderDataFormat;
+import openfl.net.URLRequest;
+import openfl.utils.ByteArray;
 
 /**
 * Currently support: String, ByteArray, BitmapData
@@ -56,8 +56,8 @@ class RoxURLLoader {
                 onComplete(false, new Error(IOErrorEvent.IO_ERROR));
             });
 #if !html5
-            loader.addEventListener(nme.events.SecurityErrorEvent.SECURITY_ERROR, function(e: Event) {
-                onComplete(false, new Error(nme.events.SecurityErrorEvent.SECURITY_ERROR));
+            loader.addEventListener(openfl.events.SecurityErrorEvent.SECURITY_ERROR, function(e: Event) {
+                onComplete(false, new Error(openfl.events.SecurityErrorEvent.SECURITY_ERROR));
             });
 #end
             loader.load(new URLRequest(url));

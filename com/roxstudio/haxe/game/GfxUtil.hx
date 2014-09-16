@@ -1,11 +1,11 @@
 package com.roxstudio.haxe.game;
 
-import nme.display.CapsStyle;
-import nme.display.LineScaleMode;
-import nme.display.BitmapData;
-import nme.display.Graphics;
-import nme.geom.Matrix;
-import nme.geom.Rectangle;
+import openfl.display.CapsStyle;
+import openfl.display.LineScaleMode;
+import openfl.display.BitmapData;
+import openfl.display.Graphics;
+import openfl.geom.Matrix;
+import openfl.geom.Rectangle;
 
 class GfxUtil {
 

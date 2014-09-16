@@ -1,31 +1,31 @@
 package com.roxstudio.haxe.ui;
 
-import nme.events.MouseEvent;
-import nme.display.InteractiveObject;
-import nme.events.EventDispatcher;
-import nme.events.Event;
-import nme.Lib;
+import openfl.events.MouseEvent;
+import openfl.display.InteractiveObject;
+import openfl.events.EventDispatcher;
+import openfl.events.Event;
+import openfl.Lib;
 import com.roxstudio.haxe.game.GfxUtil;
 import haxe.Timer;
-import nme.text.TextFieldType;
+import openfl.text.TextFieldType;
 import com.roxstudio.haxe.net.RoxURLLoader;
 import com.roxstudio.haxe.game.ResKeeper;
 import com.roxstudio.haxe.game.GameUtil;
 import com.roxstudio.haxe.game.ResKeeper;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.DisplayObject;
-import nme.display.DisplayObjectContainer;
-import nme.display.GradientType;
-import nme.display.Shape;
-import nme.display.Sprite;
-import nme.geom.Matrix;
-import nme.geom.Point;
-import nme.geom.Rectangle;
-import nme.text.TextField;
-import nme.text.TextFormat;
-import nme.text.TextFormatAlign;
-import nme.utils.ByteArray;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.DisplayObject;
+import openfl.display.DisplayObjectContainer;
+import openfl.display.GradientType;
+import openfl.display.Shape;
+import openfl.display.Sprite;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.text.TextField;
+import openfl.text.TextFormat;
+import openfl.text.TextFormatAlign;
+import openfl.utils.ByteArray;
 
 #if haxe3
 
@@ -61,7 +61,7 @@ class UiUtil {
     public static inline function textFormat(color: Int, size: Float, ?hAlign: Int = LEFT) : TextFormat {
         var format = new TextFormat();
 #if android
-        format.font = new nme.text.Font("/system/fonts/DroidSansFallback.ttf").fontName;
+        format.font = new openfl.text.Font("/system/fonts/DroidSansFallback.ttf").fontName;
 #else
         format.font = "Microsoft YaHei";
 #end

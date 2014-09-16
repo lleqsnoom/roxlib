@@ -2,15 +2,15 @@ package com.roxstudio.haxe.game;
 
 import org.bytearray.gif.decoder.GIFDecoder;
 import com.roxstudio.haxe.io.IOUtil;
-import nme.media.Sound;
-import nme.text.Font;
+import openfl.media.Sound;
+import openfl.text.Font;
 import com.roxstudio.haxe.game.GameUtil;
-import nme.Assets;
-import nme.display.BitmapData;
-import nme.display.BitmapDataChannel;
-import nme.geom.Point;
-import nme.geom.Rectangle;
-import nme.utils.ByteArray;
+import openfl.Assets;
+import openfl.display.BitmapData;
+import openfl.display.BitmapDataChannel;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.utils.ByteArray;
 
 #if cpp
 import sys.FileSystem;

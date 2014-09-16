@@ -5,12 +5,12 @@ import com.roxstudio.haxe.io.FileUtil;
 import format.zip.Reader;
 import haxe.io.Bytes;
 import haxe.io.BytesInput;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.Loader;
-import nme.events.Event;
-import nme.events.EventDispatcher;
-import nme.utils.ByteArray;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.Loader;
+import openfl.events.Event;
+import openfl.events.EventDispatcher;
+import openfl.utils.ByteArray;
 
 using com.roxstudio.haxe.io.IOUtil;
 

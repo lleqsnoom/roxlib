@@ -1,7 +1,7 @@
 package com.roxstudio.haxe.ui;
 
 import com.roxstudio.haxe.game.ResKeeper;
-import nme.display.Sprite;
+import openfl.display.Sprite;
 
 enum FinishToScreen {
     PARENT;

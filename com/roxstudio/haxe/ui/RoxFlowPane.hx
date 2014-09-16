@@ -5,10 +5,10 @@ import com.roxstudio.haxe.gesture.RoxGestureAgent;
 import com.roxstudio.haxe.game.GameUtil;
 import com.roxstudio.haxe.ui.RoxNinePatchData;
 import com.roxstudio.haxe.ui.UiUtil;
-import nme.events.MouseEvent;
-import nme.geom.Rectangle;
-import nme.display.DisplayObject;
-import nme.display.Sprite;
+import openfl.events.MouseEvent;
+import openfl.geom.Rectangle;
+import openfl.display.DisplayObject;
+import openfl.display.Sprite;
 
 using com.roxstudio.haxe.ui.UiUtil;
 
