@@ -65,8 +65,8 @@ class RoxGestureAgent {
     private var touchList: List<TouchPoint>;
     private var listenEvents: Array<String>;
     private var handler: Dynamic -> Void;
-    private var longPressTimer: GenericActuator;
-    private var tweener: GenericActuator;
+    private var longPressTimer: GenericActuator<Dynamic>;
+    private var tweener: GenericActuator<Dynamic>;
     private var overlay: Sprite; // used in capture mode, to capture events outside the owner
     /**
      * READY -> begin:BEGIN -> end:tap
@@ -118,7 +118,8 @@ class RoxGestureAgent {
 
     public inline function stopTween() {
         if (tweener != null) {
-            tweener.stop(null, false, false);
+            Actuate.stop(tweener, null, false, false);
+            //tweener.stop(null, false, false);
             tweener = null;
         }
     }
@@ -333,7 +334,8 @@ class RoxGestureAgent {
 
     private inline function cancelLongPress() {
         if (longPressTimer != null) {
-            longPressTimer.stop(null, false, false);
+            Actuate.stop(longPressTimer, null, false, false);
+            //longPressTimer.stop(null, false, false);
             longPressTimer = null;
         }
     }
