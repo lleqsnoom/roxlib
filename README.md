@@ -1,3 +1,12 @@
+haxelib install openfl
+haxelib install msignal
+haxelib install tilelayer
+haxelib install polygonal-ds
+haxelib git crashdumper http://github.com/larsiusprime/crashdumper
+haxelib git polygonal-ds https://github.com/zasmarkany/ds.git
+haxelib run openfl setup
+openfl setup android
+
 Original Repo at https://github.com/rockswang/roxlib
 ======
 
